@@ -1,0 +1,131 @@
+
+.pantalla {
+    display: grid;
+    margin: 5px;
+    width: 95%;
+    height: 100% - 5px;
+    background-color: #6eb0a0;
+    grid-template-rows: 1fr 4fr 1/2fr 1fr;
+    justify-items: center;
+    border-radius: 25px;
+}
+.subheader {
+    display: grid;
+    background-color: #038b85;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.subbody {
+    display: grid;
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    grid-template-rows: repeat(2,1fr);
+}
+.card {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color: gainsboro;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    grid-template-rows: 1fr 1fr fr 1fr 1fr 1fr;
+}
+
+.cardlogo {
+    display: grid;
+    width: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.chip {
+    display: grid;
+    width: 15%;
+    margin-left: 20px;
+}
+.numbercard {
+    display: grid;
+    width: 100%;
+    text-align-last: left;
+    margin-left: 20px;
+}
+.datecard {
+    display: grid;
+    width: 100%;
+    text-align-last: center;
+}
+.namecard {
+    display: grid;
+    width: 50%;
+    text-align-last: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+.inputnumber {
+    display: grid;
+    width: 20%;
+    text-align-last: left;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    grid-template-columns: repeat(4,1fr);
+}
+.number {
+    display: grid;
+    text-align-last: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    font-size: large;
+}
+.inputdate {
+    display: grid;
+    width: 60%;
+    margin-left: 40px;
+    margin-bottom: 3px;
+    grid-template-columns: repeat(2,1fr);
+}
+.imonth {
+    display: grid;
+    text-align-last: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    font-size: large;
+}
+.iyear {
+    display: grid;
+    text-align-last: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    font-size: large;
+}
+
+.seguir {
+    display: grid;
+    justify-self: end;
+    border-color: blue;
+    width: 30% ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0px;
+    margin-left: 10px;
+    align-items: center;
+    font-size: large;
+}
+
+.subfooter {
+    display: grid;
+    background-color: #038b85;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-self: flex-end;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
