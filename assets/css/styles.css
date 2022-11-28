@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pokemon{
+    position: absolute;
+    top: -50px;
+    width: 579px;
+    height: 348px;
+    left: 365px;
+
+}
+
+label{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 230px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #035FAF;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 550px;
+    top: 400px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+
+    background: #bbbbbb;
+    border-radius: 15px;
+}
+
+.boton{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 615px;
+    top: 500px;
+
+    background: #07A403;
+    border-radius: 15px;
+    border: none;
+
+    position: absolute;
+    width: 133px;
+    height: 48px;
+    left: 615px;
+    top: 500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.retiro{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 60px;
+    top: 340px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.deposito{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 700px;
+    top: 340px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.saldo{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 60px;
+    top: 475px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pagos{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 700px;
+    top: 475px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}

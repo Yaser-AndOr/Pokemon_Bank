@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pokemon{
+    position: absolute;
+    top: -50px;
+    width: 579px;
+    height: 348px;
+    left: 365px;
+
+}
+
+.label1{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 230px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #035FAF;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.select1{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 410px;
+    top: 330px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 96px;
+    text-align: center;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cantidad{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 150px;
+    top: 425px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pago{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 1140px;
+    top: 530px;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.pago:hover,
+.pago:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
+
+.cancel:active {
+  opacity: .5;
+}
+
+/*BOTON CANCELAR REGRESA AL MENÚ*/
+.cancel{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 70px;
+    top: 530px;
+    
+    background: #ff4242;
+    border: 1px solid #ff4242;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.cancel:hover,
+.cancel:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4242;
+}
+
+.cancel:active {
+  opacity: .5;
+}
+
+.input1{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 685px;
+    top: 450px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+    color: #000000;
+
+    background: #bbbbbb;
+    border-radius: 10px;
+    border: none;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pago2{
+    position: absolute;
+    width: 420px;
+    height: 330px;
+    left: 440px;
+    top: 310px;
+}

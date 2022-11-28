@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pokemon{
+    position: absolute;
+    top: -55px;
+    width: 579px;
+    height: 348px;
+    left: 365px;
+
+}
+
+.label1{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #035FAF;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.label2{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 295px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cinco{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 85px;
+    top: 300px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.diez{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 85px;
+    top: 405px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.veinte{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 85px;
+    top: 510px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.cincuenta{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 950px;
+    top: 300px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.cien{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 950px;
+    top: 405px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.otro{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 950px;
+    top: 510px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.cancel{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 500px;
+    top: 530px;
+
+    background: #E60202;
+    border-radius: 30px;
+    border: none;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+
+    color: #fff1eb;
+}
+
+.regresar{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 670px;
+    top: 530px;
+
+    background: #00be29;
+    border-radius: 30px;
+    border: none;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+
+    color: #fff1eb;
+}
+
+.pikachu{
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    left: 520px;
+    top: 300px;
+}
+
+.input1{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 515px;
+    top: 375px;
+
+    background: #D0D0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.retirar{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 1140px;
+    top: 530px;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.retirar:hover,
+.retirar:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
+
+.retirar:active {
+  opacity: .5;
+}
+
+/*BOTON REGRESAR A CANTIDADES DE RETIRO*/
+.regresar2{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 20px;
+    top: 530px;
+    
+    background: #ff4242;
+    border: 1px solid #ff4242;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.regresar2:hover,
+.regresar2:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4242;
+}
+
+.regresar2:active {
+  opacity: .5;
+}
+
+.retiro1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 550px;
+    top: 370px;
+}
+
+.finalizar{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 1140px;
+    top: 530px;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.finalizar:hover,
+.finalizar:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
