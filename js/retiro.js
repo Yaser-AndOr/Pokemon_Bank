@@ -1,6 +1,5 @@
 function retiro(cantidad){
     cantidad = parseInt(cantidad);
-    window.alert(cantidad);
     var disp = parseInt(localStorage.getItem("Balance"));
     if (cantidad > disp){
         window.alert("Dinero insuficiente")

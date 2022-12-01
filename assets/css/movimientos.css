@@ -92,15 +92,6 @@ tbody tr:hover {
     background-color: lightsteelblue;
 }
 
-.canvas {
-    border: solid 1px lightsteelblue;
-
-    position: absolute;
-    left: 375px;
-    top: 750px;
-    color: black;
-}
-
 .cancel{
 
     position: absolute;

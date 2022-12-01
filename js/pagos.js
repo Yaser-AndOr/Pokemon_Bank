@@ -6,14 +6,19 @@ function pagar(){
     if (pago >= 1 ){
         if (combo.value != ""){
             var disp = parseInt(localStorage.getItem("Balance"));
-            disp-=pago;
-            let reg = JSON.parse(localStorage.getItem("Registro"));
-            var fecha = new Date();
-            let nuevoreg = eleccion + " " + pago + " " + fecha.getDate() + "-" + fecha.getMonth() + "-" + fecha.getFullYear();
-            reg.push(nuevoreg);
-            localStorage.setItem("Registro", JSON.stringify(reg));
-            var disp = localStorage.setItem("Balance", disp);
-            location.href = "../views/finPago.html";
+            if (disp > pago){
+                disp-=pago;
+                let reg = JSON.parse(localStorage.getItem("Registro"));
+                var fecha = new Date();
+                let nuevoreg = eleccion + " " + pago + " " + fecha.getDate() + "-" + fecha.getMonth() + "-" + fecha.getFullYear();
+                reg.push(nuevoreg);
+                localStorage.setItem("Registro", JSON.stringify(reg));
+                var disp = localStorage.setItem("Balance", disp);
+                location.href = "../views/finPago.html";
+            }
+            else {
+                window.alert("Dinero insuficiente");
+            }
         } 
         else{
             window.alert("Seleccione un servicio")

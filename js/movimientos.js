@@ -9,10 +9,7 @@ function tablaload() {
             "<td>"+elements[2]+"</td>"+
             "<td>"+elements[1]+"</td>"+
         "</tr>";
-            window.alert(elements[0]);
     });
-
-    window.alert(tabla);
     document.getElementById("tabla").innerHTML += tabla;
 }
 
