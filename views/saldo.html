@@ -7,11 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../assets/css/Consulta.css">
     <title>Saldo</title>
+    <script src="../js/movimientos.js"></script>
 </head>
-<body>
+<body onload="balanceload()">
     <img src="../assets/img/pokemon_bank_main_169.png" class="pokemon">
     <label class="label1">Su saldo actual es de:</label>
-    <label class="saldo">$550</label>
+    <label class="saldo" id="saldo"></label>
     <a href="../views/imprimir.html"><button class="imprimir">Imprimir recibo</button></a>
     <a href="../views/consulta.html"><button class="regresar2">Regresar</button></a>
 </body>

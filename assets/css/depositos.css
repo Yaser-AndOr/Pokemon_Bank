@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pokemon{
+    position: absolute;
+    top: -40px;
+    width: 579px;
+    height: 348px;
+    left: 365px;
+
+}
+
+.label1{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 255px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 96px;
+    text-align: center;
+    line-height: 50px;
+
+    color: #035FAF;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.label2{
+    position: absolute;
+    width: 579px;
+    height: 175px;
+    left: 100px;
+    top: 360px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.ranura{
+    position: absolute;
+    width: 220px;
+    height: 210px;
+    left: 300px;
+    top: 405px;
+}
+
+.label3{
+    position: absolute;
+    width: 467px;
+    height: 399px;
+    left: 656px;
+    top: 370px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.label4{
+  position: absolute;
+  width: 250px;
+  height: 82px;
+  left: 420px;
+  top: 350px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #000000;
+}
+.label5{
+    position: absolute;
+    width: 905px;
+    height: 81px;
+    left: 218px;
+    top: 270px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 96px;
+    text-align: center;
+    line-height: 50px;
+
+    color: #035FAF;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 685px;
+    top: 355px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+
+    background: #D9D9D9;
+    border-radius: 24px;
+    border: none;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* CSS BOTON CANCELAR */
+.button-24 {
+
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 50px;
+    top: 530px;
+
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+/*CSS BOTON ENTER*/
+.button-25 {
+
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 1140px;
+    top: 530px;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+
+/*CSS BOTON ENTER 2*/
+
+.ENTER{
+
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 600px;
+    top: 470px;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.ENTER:hover,
+.ENTER:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
+
+.ENTER:active {
+  opacity: .5;
+}
+
+.check{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 516px;
+  top: 320px;
+
+}

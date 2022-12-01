@@ -7,10 +7,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../assets/css/movimientos.css">
     <title>Consulta</title>
+    <script src="../js/movimientos.js"></script>
 </head>
-<body>
+<body onload="tablaload()">
     <img src="../assets/img/pokemon_bank_main_169.png" class="pokemon">
     <label class="label1">Movimientos actuales de su cuenta</label>
-
+    <div class="containter">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de transaccion </th>
+                    <th>Fecha </th>
+                    <th>Monto</th>
+                </tr>
+                <tbody id="tabla">
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <a href="../index.html"><button class="cancel">Cancelar</button></a>
+    <a href="../views/consulta.html"><button class="regresar">Regresar</button></a>
 </body>
+</script>
 </html>

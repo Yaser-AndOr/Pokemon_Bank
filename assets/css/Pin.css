@@ -13,7 +13,7 @@ body{
     position: absolute;
     width: 579px;
     height: 348px;
-    left: 350px;
+    left: 365px;
 
 }
 
@@ -22,7 +22,7 @@ label{
     width: 905px;
     height: 81px;
     left: 208px;
-    top: 300px;
+    top: 290px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -43,7 +43,11 @@ input{
     height: 50px;
     left: 530px;
     top: 400px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border: none;
+    background: #bbbbbb;
+    border-radius: 12px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -54,33 +58,46 @@ input{
 
     color: #000000;
 
-    background: #bbbbbb;
-    border-radius: 15px;
 }
 
 .boton{
     position: absolute;
-    width: 200px;
-    height: 60px;
-    left: 550px;
+    width: 130px;
+    height: 50px;
+    left: 595px;
     top: 500px;
-
-    background: #07A403;
-    border-radius: 15px;
-    border: none;
-
-    position: absolute;
-    width: 133px;
-    height: 48px;
-    left: 592px;
-    top: 500px;
-
-    font-family: 'Inter';
-    font-style: normal;
+    
+    background: #58ff42;
+    border: 1px solid #58ff42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 22px;
     font-weight: 800;
-    font-size: 25px;
-    line-height: 48px;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
     text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
 
-    color: #FFFFFF;
+.boton:hover,
+.boton:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #58ff42;
+}
+
+.boton:active {
+  opacity: .5;
 }

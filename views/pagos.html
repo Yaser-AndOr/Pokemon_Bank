@@ -8,20 +8,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../assets/css/pagos.css">
     <title>Pagos</title>
+    <script src="../js/pagos.js"></script>
 </head>
 <body>
     <img src="../assets/img/pokemon_bank_main_169.png" class="pokemon">
     <label class="label1">Seleccione el servicio a pagar</label>
-    <select name="" id="" class="select1">
-        <option value="">Seleciona una opción</option>
+    <select name="" id="selector" class="select1">
+        <option value="" >Seleciona una opción</option>
             <option value="1">Pago de internet</option>
             <option value="2" >Pago de luz</option>
             <option value="3">Pago de agua</option>
             <option value="3">Pago de telefonía</option>
     </select>
         <label class="cantidad">Cantidad:</label>
-        <input type="number" class="input1">
-        <a href="../views/finPago.html"><button class="pago">Pagar</button></a>
+        <input type="text" class="input1" id="cantidad">
+        <button class="pago" onclick="pagar()">Pagar</button>
         <a href="../index.html"><button class="cancel">Cancelar</button></a>
 
 </body>

@@ -37,3 +37,153 @@ body{
     mix-blend-mode: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.containter {
+    display: flex;
+    align-items: top;
+
+    border: solid 1px lightsteelblue;
+
+    position: absolute;
+    overflow: scroll;
+    height: 400px;
+    width: 585px;
+    left: 375px;
+    top: 325px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.containter::-webkit-scrollbar{
+    width: 5px;
+    height: 0px;
+}
+.containter::-webkit-scrollbar-thumb{
+    background: #ace0f9;
+}
+
+table {
+    color: grey;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: lightsteelblue;
+}
+
+th {
+    padding: 1px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 1px;
+    border-bottom: solid 1px lightsteelblue;
+}
+
+tbody tr:hover {
+    background-color: lightsteelblue;
+}
+
+.canvas {
+    border: solid 1px lightsteelblue;
+
+    position: absolute;
+    left: 375px;
+    top: 750px;
+    color: black;
+}
+
+.cancel{
+
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 50px;
+    top: 540px;
+    
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.cancel:hover,
+.cancel:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.cancel:active {
+  opacity: .5;
+}
+
+
+.regresar {
+
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 50px;
+    top: 460px;
+    
+    background: #ffad42;
+    border: 1px solid #ffad42;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.regresar:hover,
+.regresar:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ffad42;
+}
+
+.regresar:active {
+  opacity: .5;
+}
